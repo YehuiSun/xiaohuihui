@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1537613895 source:c:\users\sunyehui\desktop\小辉辉的数据结构之旅\main.c
+	<stdio.h>
+	<stdlib.h>
+	"xiaohuihui.h"
+
+1537674955 c:\users\sunyehui\desktop\小辉辉的数据结构之旅\xiaohuihui\inc\xiaohuihui.h
+	<stdio.h>
+	<stdlib.h>
+	"tree.h"
+	"list.h"
+	"linklist.h"
+	"stack.h"
+
+1537669373 c:\users\sunyehui\desktop\小辉辉的数据结构之旅\xiaohuihui\inc\tree.h
+
+1537669372 c:\users\sunyehui\desktop\小辉辉的数据结构之旅\xiaohuihui\inc\list.h
+
+1537669373 source:c:\users\sunyehui\desktop\小辉辉的数据结构之旅\xiaohuihui\src\list.c
+	"xiaohuihui.h"
+
+1537669399 source:c:\users\sunyehui\desktop\小辉辉的数据结构之旅\xiaohuihui\src\tree.c
+	"xiaohuihui.h"
+
+1537621966 c:\users\sunyehui\desktop\小辉辉的数据结构之旅\xiaohuihui\inc\linklist.h
+	<stdio.h>
+	<stdlib.h>
+
+1537669372 source:c:\users\sunyehui\desktop\小辉辉的数据结构之旅\xiaohuihui\src\linklist.c
+	"xiaohuihui.h"
+
+1537674978 c:\users\sunyehui\desktop\小辉辉的数据结构之旅\xiaohuihui\inc\stack.h
+
