@@ -9,12 +9,12 @@ Stack CreateStack()   //创建空栈
     return S;
 }
 
-int IsEmpty(Stack S)   //判断堆栈S是否为空
+int StackIsEmpty(Stack S)   //判断堆栈S是否为空
 {
     return (S->Next==NULL) ;
 }
 
-void Push(Stack S,int item)   //将元素item压入堆栈
+void StackPush(Stack S,int item)   //将元素item压入堆栈
 {
     Stack p;
     p=(Stack)malloc(sizeof(struct SNode));
@@ -23,15 +23,15 @@ void Push(Stack S,int item)   //将元素item压入堆栈
     S->Next=p;
 }
 
-int Pop(Stack S)   //出栈，并返回栈顶元素
+int StackPop(Stack S)   //出栈，并返回栈顶元素
 {
      Stack p;
      int Top=0;
 
-     if(IsEmpty(S))
+     if(StackIsEmpty(S))
      {
-         printf("堆栈空")；
-         return NULL;
+         printf("堆栈空");
+         return 0;
      }
      else
      {

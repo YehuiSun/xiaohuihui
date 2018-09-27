@@ -36,11 +36,15 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="xiaohuihui/inc/hash.h" />
 		<Unit filename="xiaohuihui/inc/linklist.h" />
 		<Unit filename="xiaohuihui/inc/list.h" />
 		<Unit filename="xiaohuihui/inc/stack.h" />
 		<Unit filename="xiaohuihui/inc/tree.h" />
 		<Unit filename="xiaohuihui/inc/xiaohuihui.h" />
+		<Unit filename="xiaohuihui/src/hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="xiaohuihui/src/linklist.c">
 			<Option compilerVar="CC" />
 		</Unit>
